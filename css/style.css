@@ -1,0 +1,165 @@
+* {
+  overflow: hidden;
+}
+
+.background {
+  background-color:	#273a47;
+  height: 100%;
+}
+
+.box {
+  width: 98%;
+  height: 750px;
+  background-color: #273a47;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  margin-left: 20%;
+  font-family: 'Ubuntu Mono', monospace;
+  color: #b3dd70;
+}
+
+.drop {
+  margin-top: 5%;
+}
+
+.spaced {
+  padding: 5%;
+}
+
+.spacer {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.ls {
+  margin-top: 0.6%;
+}
+
+.arrow {
+  margin-right: 1%;
+}
+
+.squiggle {
+  margin-left: 0.5%;
+  color: #6187ab;
+}
+
+.center {
+  margin-top: 15%;
+  height: 100%;
+  align-items: center;
+}
+
+.item-list {
+  padding-right: 5%;
+  color: #6187ab;
+  font-weight: bold;
+}
+
+.item-list a{
+  color: #6187ab;
+  text-decoration: none;
+}
+
+.item-list a:hover {
+  transition: 200ms;
+  transition-timing-function: linear;
+  color: #6e9bc5;
+  text-decoration: none;
+}
+
+.none-link {
+  color: #ee515d;
+}
+
+.none-link:hover {
+  color: #ee515d;
+}
+
+.time {
+  font-size: 30px;
+  color: white;
+  margin-top: 5%;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #b3dd70;
+    font-size: 16px;
+  }
+
+  * {
+    overflow-y: auto;
+  }
+
+  .phone-hide {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 650px) {
+  body {
+    font-size: 0.5rem;
+  }
+  .box {
+    border: 5px solid #6187ab;
+    background-color: #273a47;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    box-shadow: 5px 5px 5px #1a1a1a;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #b3dd70;
+    font-size: 16px;
+  }
+  .drop {
+    margin-top: 1%;
+  }
+  .time {
+    margin-top: 1%;
+    font-size: 1rem;
+  }
+  .div {
+    font-size: 0.5rem;
+  }
+
+  .div a {
+    font-size: 0.5rem;
+  }
+
+}
+
+.add {
+  width: 180px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 10% !important;
+}
+
+.first-item {
+  color: #586e79;
+}
+
+.all-items {
+  color: white;
+}
+
+.hack-link a {
+    color: #6e459f !important;
+}
+
+.form-inputs {
+  margin-left: 4% !important;
+  margin-bottom: 0 !important;
+}
+
+.button-style {
+  position: fixed;
+  bottom: 1%;
+  left: 10px;
+}
